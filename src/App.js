@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navber from "./Component/Navber";
+import Header from "./Component/mainSection/Header";
+
 
 function App() {
   return (
-    <div>
-         <h1 className="text-3xl text-center font-bold underline">
-      Hello world!
-    </h1>
-
-    </div>
+    <>
+      <Navber />
+      <Header />
+    </>
   );
 }
 
